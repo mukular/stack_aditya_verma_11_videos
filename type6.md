@@ -36,7 +36,7 @@ for(int i = 0; i < size; i++)
         }
     }
 
-    s.push(arr[i]);
+    s.push({arr[i], i});
 }
 
 // code of nsr(next smaller to right)
@@ -71,7 +71,7 @@ for(int i = size-1; i >= 0; i--)
         }
     }
 
-    s2.push(arr[i]);
+    s2.push({arr[i], i});
 }
 
 // reverse right vector
